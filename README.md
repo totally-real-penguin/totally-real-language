@@ -35,6 +35,7 @@ drown (which is the possibility I don't want to think about)
 
 
 ### Part 1.5 Thoughts on implementing the AST
+___
 
 An AST just takes the tokens and constructs them into an ordered
 list of things todo so we can run all the steps the right way round.
@@ -42,10 +43,13 @@ For a demonstration of what it would do you can think of BIDMAS
 (Brackets, Indices, Division/Multiplication, Addition/Subtraction)
 if you had the expression 4 - (5 + 3) / 2 you can split it up
 by the order you would solve
-      -
-    4   /
-       +  2
-      5 3
+
+```
+    -
+ 4     /
+     +   2
+    5 3
+```
 Reading the operations deepest in the tree first until reaching
 the top. Here it reads 5+3 then Ans/2 and then 4-Ans.
 Although I don't fully know how to implement everything yet as
