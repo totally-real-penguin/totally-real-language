@@ -50,5 +50,6 @@ the top. Here it reads 5+3 then Ans/2 and then 4-Ans.
 Although I don't fully know how to implement everything yet as
 it gets a bit complicated with how functions, loops and if statements
 or atleast I think it will.
-i
-[logo]: https://github.com/totally-real-penguin/totally-real-language/blob/main/assets/example_tree.png "An example tree"
+
+
+[logo]: https://github.com/totally-real-penguin/totally-real-language/main/assets/example_tree.png "An example tree"
