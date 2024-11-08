@@ -34,8 +34,7 @@ you would atleast learn how to keep yourself afloat or you will
 drown (which is the possibility I don't want to think about)
 
 
-### Part 1.5 Thoughts on implementing the AST
-___
+### Part 1.5 Thoughts on implementing the AST:
 
 An AST just takes the tokens and constructs them into an ordered
 list of things todo so we can run all the steps the right way round.
@@ -52,4 +51,4 @@ Although I don't fully know how to implement everything yet as
 it gets a bit complicated with how functions, loops and if statements
 or atleast I think it will.
 i
-[logo]: ./assets/example_tree.png "An example tree"
+[logo]: https://github.com/totally-real-penguin/totally-real-language/blob/main/assets/example_tree.png "An example tree"
