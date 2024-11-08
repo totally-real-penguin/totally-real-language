@@ -44,15 +44,12 @@ For a demonstration of what it would do you can think of BIDMAS
 if you had the expression 4 - (5 + 3) / 2 you can split it up
 by the order you would solve
 
-```
-    -
- 4     /
-     +   2
-    5 3
-```
+![alt text][logo]
+
 Reading the operations deepest in the tree first until reaching
 the top. Here it reads 5+3 then Ans/2 and then 4-Ans.
 Although I don't fully know how to implement everything yet as
 it gets a bit complicated with how functions, loops and if statements
 or atleast I think it will.
-
+i
+[logo]: ./assets/example_tree.png "An example tree"
