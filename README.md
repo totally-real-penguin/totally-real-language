@@ -52,4 +52,4 @@ it gets a bit complicated with how functions, loops and if statements
 or atleast I think it will.
 
 
-[logo]: https://raw.githubusercontent.com/totally-real-penguin/totally-real-language/refs/heads/main/assets/example_tree.png "An example tree"
+[logo]: https://github.com/totally-real-penguin/totally-real-language/raw/main/assets/example_tree.png "An example tree"
