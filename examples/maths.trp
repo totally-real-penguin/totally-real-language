@@ -1,0 +1,12 @@
+var x = 12
+var y: float = 3.2
+const z = 9.32
+const pi = 3.14
+const tau = 6.24
+
+print(x + y == 14.2) # false
+print(z - y == 6.12) # true 
+print(pi * 2 == tau) # true
+print(13 // pi) # 4
+print(14**2) # 196
+print(x++)

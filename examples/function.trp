@@ -1,0 +1,15 @@
+fn addition(x:int, y:int) {
+  return x + y
+}
+
+fn higher(x,y) {
+  if x > y {
+     return x
+  }
+  return y
+}
+
+z = addition(12,5)
+print(z) # 17
+
+print(z > higher(14,3)) # true

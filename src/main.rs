@@ -1,8 +1,6 @@
 use std::fs;
 use std::env;
 
-use lexer::TokenTypes;
-
 mod lexer;
 
 fn main() {
@@ -16,8 +14,5 @@ fn main() {
 
     let mut tokenizer = lexer::Lexer::new(contents);
     let tokens = tokenizer.scan();
-
-    for token in tokens{
-        println!("{:?}",token);
-    }
+    print!("{:?}", tokens)
 }

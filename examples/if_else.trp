@@ -1,0 +1,13 @@
+var x = 12
+var y = 8
+var z = 2
+
+if x > y && z < y {
+  print("X is giant")
+}
+
+if z > y {
+  print("Error thats not right")
+} else {
+  print("Z is little")
+}
